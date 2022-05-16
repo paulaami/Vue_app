@@ -9,9 +9,9 @@
       >Add Resources</base-btn
     >
   </base-card>
-  <kepp-alive>
+  
     <component :is="selectedTab"></component>
-  </kepp-alive>
+
 </template>
 
 <script>
@@ -32,6 +32,42 @@ export default {
           title: 'Official Guide',
           description: 'The official Vue.js documentation.',
           link: 'https://vuejs.org',
+        },
+        {
+          id: 'google',
+          title: 'Google',
+          description: 'Learn to google...',
+          link: 'https://google.org',
+        },
+        {
+          id: 'google',
+          title: 'Google',
+          description: 'Learn to google...',
+          link: 'https://google.org',
+        },
+        {
+          id: 'google',
+          title: 'Google',
+          description: 'Learn to google...',
+          link: 'https://google.org',
+        },
+        {
+          id: 'google',
+          title: 'Google',
+          description: 'Learn to google...',
+          link: 'https://google.org',
+        },
+        {
+          id: 'google',
+          title: 'Google',
+          description: 'Learn to google...',
+          link: 'https://google.org',
+        },
+        {
+          id: 'google',
+          title: 'Google',
+          description: 'Learn to google...',
+          link: 'https://google.org',
         },
         {
           id: 'google',
