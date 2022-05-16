@@ -43,6 +43,9 @@ export default {
   mounted() {
     window.addEventListener('scroll', this.handeScroll);
   },
+  unmounted() {
+    window.removeEventListener('scroll', this.handeScroll);
+  }
 };
 </script>
 
